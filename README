@@ -1,1 +1,28 @@
-There are some guidelines in the python file
+A few thrown together python functions to rename tv shows.
+Nothing tricky although slightly overcomplicated in places.
+
+parseHTML() - This function pulls in the html from episode guides on tvrage
+and parses the episodes out into a txt file. 
+
+simple_rename() - This function removes excess data from filenames and renames
+everything to a simple clean format in the format episode.name.SXX.EXX.ext
+This can be run in simulation mode that will print the result of running the function
+without renaming any files.
+
+
+title_rename() - This functions matches the show names in the text file from parseHTML
+and the new show names from simple_rename and renames the files accordingly. This can be
+run in simulation mode that will print the result of running the function without renaming
+any files.
+
+TODO:
+
+Add warning/error messages if the number of files in a directory don't match the number
+of episodes in a season
+
+Choose a better format for the output of parseHTML()
+
+Write better comments/docstrings in code.
+
+Cleanup READEME
+

@@ -127,7 +127,7 @@ def parseHTML(url, names_txt, show_name):
         episode_file.close()
 
 # File directory of episodes. Including trailing slash
-file_dir = '/media/1.5TB/TV Series/American Dad/Season 6/'
+file_dir = 'American Dad/Season 6/'
 # Show name - Use dots for spaces
 show_name = 'American.Dad'
 # Season number in XX format
